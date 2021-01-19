@@ -6,3 +6,37 @@
 줄바꿈
 <br> - 여러 번 가능
 <p></p> - 자유도 떨어짐
+
+<img src = "" width = "">
+     속성       속성
+     
+목차,목록(list) 
+<ul>      unordered list   부모      <ol>    ordered list    부모
+  <li></li>     list       자식          <li></li>           자식
+</ul>                               </ol>
+
+
+테이블
+<table>
+    <th>            헤더
+        <tr>         행
+            <td>     열
+            </td>
+        </tr>
+    </th>
+</table>
+
+
+
+
+<!doctype html>
+<html>
+<head>      본문 설명
+    <meta>
+    <title></title>       브라우저의 제목 표시줄 or 페이지탭 문서 제목
+</head>
+
+<body>      본문
+<a href = "" target = "_blank" title = ""></a>     앵커 /  hypertext reference   /   새 탭에서 열기 / 툴팁
+</body>
+</html>
