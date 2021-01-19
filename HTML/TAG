@@ -1,0 +1,8 @@
+기본 문법 - 태그
+<strong></strong> - 진하게
+<u></u> - 밑줄(underline)
+<h1>~<h6> - 제목(headings)
+
+줄바꿈
+<br> - 여러 번 가능
+<p></p> - 자유도 떨어짐
