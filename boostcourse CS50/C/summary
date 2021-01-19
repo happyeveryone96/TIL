@@ -44,3 +44,5 @@ i++;
 main 함수가 맨 위로 가도록 but 사용자 정의 함수를 사용할 때는 main 함수 위에 
 사용자 정의 함수 이름만(void 함수이름(void); 이런 식으로) 써주고
 main 함수 밑에서 함수 
+
+https://bit.ly/3iDt3rj  - sandbox.cs50.io
