@@ -1,0 +1,46 @@
+#include <stdio.h>
+       // stdio > standard input output 
+#include <unistd.h>
+      // 
+
+int main(void)
+//출력     입력
+{
+    printf("hello, world\n");
+   //출력 f > formatted     \n > 줄바꿈
+}
+
+
+명령 프롬프트
+$clang - 컴파일
+$./ - 실행
+$clang -o hello hello.c       ==     $make hello
+      (-o > 원하는 이름으로 변경)
+mkdir - 디렉토리 생성(make directory)
+rmdir - 디렉토리 제거
+rm - 제거(remove)
+pwd - 경로확인
+cd - 기본 설정으로
+
+
+hello*      /    hello.c
+머신코드(실행가능)    소스코드
+
+= : 할당연산자(지정해주는 기능)
+% : 형식지정자(%s, %i, %li, %f, %c)       ex) %.2f > 소수점 두 자리까지 
+== : 일치연산자
+
+if
+for( ; ; )
+while(true 또는 false)
+
+i = i+1;    1씩증가 
+i +=1;
+i++;
+
+|| - 또는
+&& - 그리고
+
+main 함수가 맨 위로 가도록 but 사용자 정의 함수를 사용할 때는 main 함수 위에 
+사용자 정의 함수 이름만(void 함수이름(void); 이런 식으로) 써주고
+main 함수 밑에서 함수 
