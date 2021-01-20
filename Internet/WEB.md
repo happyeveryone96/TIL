@@ -7,8 +7,8 @@
 Web browser >>>>> Web Server >>>>> Web browser
 (client)   request (Server) response 
 </pre>
-<pre>http - Hyper   (웹페
-            Text     이지)
+<pre>http - Hyper   (웹페이지)
+            Text     
             Transfer(전송)
             Protocol(규약)
 </pre>
