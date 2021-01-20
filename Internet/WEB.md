@@ -1,5 +1,6 @@
 <h1>WEB</h1>
-<li>Public Domain 팀 버너스 리(웹 만든 사람)</li>
+<li>Public Domain </li>
+<li>팀 버너스 리(웹 만든 사람)</li>
 <li>info.cern.ch - home of the first website</li>
 <li>Internet(최소 두 대의 컴퓨터) VS WEB(from Swiss)</li>
 <br>
