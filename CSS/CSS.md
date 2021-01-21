@@ -3,6 +3,14 @@
 <li>유지보수 편리</li>
 <li>가독성 상승</li>
 <li>HTML이 정보 전달에 집중하도록 해줌</li>
+<ol>
+  <li>인라인 스타일(Inline style)</li>
+  <div>>>HTML 요소 내부에 style 속성 사용</div>
+  <li>내부 스타일 시트(Internal style sheet) >> HTML 문서 내의 <head>태그에 <style>태그를 사용하여 CSS 스타일을 적용</li>
+  <li>외부 스타일 시트(External style sheet)외부에 작성된 스타일 시트 파일은 .css 확장자를 사용하여 저장
+스타일을 적용할 웹 페이지의 <head>태그에 <link>태그를 사용하여 외부 스타일 시트를 포함해야만 스타일이 적용</li>
+</ol>
+
 <br>
 <pre>
 selector   >>>   a(태그 선택자) {
