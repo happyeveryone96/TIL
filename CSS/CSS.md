@@ -9,9 +9,9 @@
   <li>내부 스타일 시트(Internal style sheet)</li>
   <div>>> HTML 문서 내의 <head>태그에 <style>태그를 사용하여 CSS 스타일을 적용</div>
   <li>외부 스타일 시트(External style sheet)</li>
-  <pre>외부에 작성된 스타일 시트 파일은 .css 확장자를 사용하여 저장
-      스타일을 적용할 웹 페이지의 <head>태그에 <link>태그를 사용하여 
-        외부 스타일 시트를 포함해야만 스타일이 적용</pre>
+  <div>외부에 작성된 스타일 시트 파일은 .css 확장자를 사용하여 저장</div>
+  <div>스타일을 적용할 웹 페이지의 <head>태그에 <link>태그를 사용하여</div>
+  <div>외부 스타일 시트를 포함해야만 스타일이 적용</div>
 </ol>
 <br>
 <pre>
