@@ -1,3 +1,10 @@
 <pre></pre> - Enter나 Tab, Space를 다 활용할 수 있음
 <iframe src="삽입할페이지주소"></iframe> - 해당 웹 페이지 안에 어떠한 제한 없이 또 다른 하나의 웹 페이지를 삽입할 수 있음(inline frame)
 <input type = "checkbox"> - 체크박스
+
+<font></font> - 지금은 쓰이지 않는 태그
+                정보X 디자인
+                웹페이지의 가치를 떨어뜨림
+<style></style> - 안에 CSS 작성
+                  
+                  
