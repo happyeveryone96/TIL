@@ -5,6 +5,8 @@
 <font></font> - 지금은 쓰이지 않는 태그
                 정보X 디자인
                 웹페이지의 가치를 떨어뜨림
-<style></style> - 안에 CSS 작성
+<style></style> - 안에 CSS 작성   >> <link rel="stylesheet" href="style.css"> 
+                                   외부에 작성된 스타일 시트 파일은 .css 확장자를 사용하여 저장
+                                  스타일을 적용할 웹 페이지의 <head>태그에 <link>태그를 사용하여 외부 스타일 시트를 포함해야만 스타일이 적용된다
                   
                   
