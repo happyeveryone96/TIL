@@ -14,7 +14,7 @@ selector   >>>   a(태그 선택자) {
                      #(id 선택자){
                                 }
 </pre>
-
+<pre>
 {
 text-decoration:none ;  >>> 줄 삭제
 }
@@ -31,3 +31,4 @@ display none;       >> 사라짐
 display grid;     
 grid-template-columns : 150px 1fr; >> 명시적 열(Track)의 크기를 정의 / fr(fraction, 공간 비율) 단위
 }
+</pre>
