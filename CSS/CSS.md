@@ -30,7 +30,8 @@ text-decoration:none ;  >>> 줄 삭제
 }
 
 {
-font-size: 100px;   >> 테스트 크기
+font-size: 100px;   >> 텍스트 크기
+font-weight: ;      >> 폰트 굵기, 가중치
 text-align: center; >> 텍스트 정렬
 border-width:10px;  >> 테두리 두께
 border-color:red;   >> 테두리 색         border: 5px solid red; (이런 식으로 작성해도 됨, 순서 상관 없음)
