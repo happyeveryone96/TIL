@@ -9,3 +9,16 @@
 <div>Variable(변수) & Constant(상수)</div>
 <div>var name = " "; >> 변수 선언</div>
 <div>alert("~~~~~~"+name+"~~~~~") >> 변수 name 대입
+  
+<h2>Boolean</h2>
+<div>true or false</div> 
+<pre>if(true) {
+               ~~~~~~~~  >> 실행          
+     } else {
+              ~~~~~~~~~~ >> 실행X
+     }
+</pre>
+
+<h2>===<h2>
+<div>동등 비교 연산자, 이항 연산자</div>
+<div>HTML에서 부등호 입력할 때 <는 &lt; >는 &gt; 로 입력(꺽쇠로 인식하기 때문)</div>
