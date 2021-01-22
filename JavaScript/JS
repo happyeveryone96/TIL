@@ -1,0 +1,16 @@
+JavaScript - 사용자와 상호 작용, 동적
+             event -> JS실행
+            
+<script>             HTML <script> 태그 사이에 JS 작성 
+    document.write();             
+</script>
+
+<input type="button" value=" " onclick="alert('HI')">
+                               onchange
+                               onkeydown
+                                   .
+                                   .
+                                   .                            
+       속성             속성      event       JS
+       
+검사 >> console >> alert(" ".lenght) 문자열 길이 확인
