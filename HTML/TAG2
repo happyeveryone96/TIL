@@ -10,3 +10,5 @@
                                   스타일을 적용할 웹 페이지의 <head>태그에 <link>태그를 사용하여 외부 스타일 시트를 포함해야만 스타일이 적용된다
                   
                   
+<div></div> - 아무것도 표현하지 않음, 줄바꿈O, block level element
+<span></span> - 아무것도 표현하지 않음, 줄바꿈X, inline element
