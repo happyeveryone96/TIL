@@ -1,0 +1,10 @@
+var alist = ['A','B','C'];
+document.write(alist[0]); >> 배열의 0번째 index
+document.write(alist.length); >> 배열 길이
+alist.push('D'); >> 데이터 추가(마지막에)
+
+var i = 0;
+while(i<alist.length) {
+    document.write('<li>' + alist[i] + '</li>');
+    i = i + 1;
+    }
