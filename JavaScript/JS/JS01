@@ -7,6 +7,8 @@ JavaScript - 사용자와 상호 작용, 동적
     document.querySelector("myclass").style.color=" ";
 </script>
 
+.js파일 만들고 <script src= " .js"></script> 이렇게 적는 것이 효율적
+
 <input type="button" value=" " onclick="alert('HI')">
                                onchange
                                onkeydown
