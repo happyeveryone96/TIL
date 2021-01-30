@@ -4,10 +4,9 @@
 <pre>
 대입 연산자(이항 연산자)
 =   
-
 비교 연산자
-==(동등 연산자(equal operator)), >> true,false >> boolean       ===(일치 연산자(strict equal operator)
- <li>>, <, <=, >=  </li>
+<li>==(동등 연산자(equal operator)), >> true,false >> boolean       ===(일치 연산자(strict equal operator)</li>
+<li> >, <, <=, >=  </li>
 </pre>
 <br>
 <pre>
