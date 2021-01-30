@@ -7,10 +7,7 @@
 
 비교 연산자
 ==(동등 연산자(equal operator)), >> true,false >> boolean       ===(일치 연산자(strict equal operator)
->, 
-<, 
-<=, 
->=  
+>, <, <=, >=  
 </pre>
 <br>
 <pre>
