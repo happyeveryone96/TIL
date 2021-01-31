@@ -7,8 +7,9 @@
 
 <h2>Variable & Constant</h2>
   <div>Variable(변수) & Constant(상수)</div>
-  <div>var name = " "; >> 변수 선언</div>
+  <div>var name = " "; >> 변수 선언</div> 
   <div>alert("~~~~~~"+name+"~~~~~") >> 변수 name 대입
+  <div>ES6부터는 var 대신 let 사용</div>
   
 <h2>Boolean</h2>
   <div>true or false</div> 
