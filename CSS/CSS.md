@@ -27,9 +27,7 @@ selector   >>>   a(태그 선택자) {
 <pre>
 {
 text-decoration:none ;  >>> 줄 삭제
-}
-
-{
+margin-top:45px;    >> 여백
 font-size: 100px;   >> 텍스트 크기
 font-weight: ;      >> 폰트 굵기, 가중치
 text-align: center; >> 텍스트 정렬
