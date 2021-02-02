@@ -1,0 +1,32 @@
+1. 
+<head>
+<script></script>
+</head>
+
+parsing HTML /          blocked          / parsing HTML
+              fetching js / executing js
+2.
+<body>
+<script></script>
+</body>
+
+parsing HTML / fetching js / executing js
+
+3.
+head + async
+<head>
+<script async src=""></script>
+</head>
+
+parsing HTML /    blocked   / parsing HTML
+fetching js  / executing js 
+
+4.
+head + defer
+<head>
+<script defer src=""></script>
+</head>
+
+parsing HTML / executing js
+fetching js
+              
