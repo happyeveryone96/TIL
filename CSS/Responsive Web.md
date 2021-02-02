@@ -50,5 +50,5 @@ Relative - em (현재 폰트 사이즈, 선택된 폰트와 상관없이 항상 
 폰트사이즈 rem 선호
 width % 선호
 padding: 0.5rem 0.5rem; // 수직적 정렬
-          상하    
+          상하     
 </pre>
