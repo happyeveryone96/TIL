@@ -23,6 +23,12 @@ selector   >>>   a(태그 선택자) {
                                  }
                      #(id 선택자){
                                 }
+universal *
+type Tag
+ID #id
+Class .class
+State :
+Attribute []
 </pre>
 <pre>
 {
@@ -34,10 +40,17 @@ text-align: center; >> 텍스트 정렬
 border-width:10px;  >> 테두리 두께
 border-color:red;   >> 테두리 색         border: 5px solid red; (이런 식으로 작성해도 됨, 순서 상관 없음)
 border-style:solid; >> 테두리 스타일
-display inline;     >> 자기 크기만큼
-display block;      >> 화면 전체
+display inline;     >> 자기 크기만큼, 물건
+display block;      >> 화면 전체, 한 줄 하나 상자
+display inline-block >> 한 줄 여러 개 상자
 display none;       >> 사라짐
 display grid;     
 grid-template-columns : 150px 1fr; >> 명시적 열(Track)의 크기를 정의 / fr(fraction, 공간 비율) 단위
+
+position: static; (기본 값)
+          relative; 원래 있어야 되는 아이템에서 이동
+          absolute; 아이템이 담겨 이는 가까이 있는 상자 안에서 이동
+          fixed; 상자 안에서 벗어나 페이지에서 이동
+          sticky; 스크롤해도 원래 자리 
 }
 </pre>
