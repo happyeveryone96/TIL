@@ -13,7 +13,7 @@ if(이런 일이 일어난다면) {성공!};
 - 재귀
 자기 자신을 호출
 </pre>
-'''
+₩₩₩
 function factorial(x) {
   // 종료 조건
   if (x < 0) return;
@@ -27,4 +27,4 @@ function factorial(x) {
 
 factorial(3);
 // 6
-'''
+₩₩₩
