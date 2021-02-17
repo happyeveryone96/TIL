@@ -19,7 +19,8 @@ event -> JS실행
     document.querySelector("myclass").style.color=" ";
 </script>
 
-.js파일 만들고 <script src= " .js"></script> 이렇게 적는 것이 효율적
+
+.js파일 만들고 <script src= " .js"></script> 이렇게 적는 것이 효율적      >> body 태그나 head 태그에 작성(둘 다 가능)
 
 <input type="button" value=" " onclick="alert('HI')">
                                onchange
