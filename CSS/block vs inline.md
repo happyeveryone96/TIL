@@ -1,7 +1,7 @@
-<pre>
-HTML - 블록 레벨(Block level) 요소와 인라인(inline) 요소
 
-블록 요소
+<h1>HTML - 블록 레벨(Block level) 요소와 인라인(inline) 요소</h1>
+
+<div>블록 요소</div>
 <ol>
   <li>div, h1, p</li>
   <li>사용 가능한 최대 가로 너비를 사용한다.</li>
@@ -12,7 +12,7 @@ HTML - 블록 레벨(Block level) 요소와 인라인(inline) 요소
   <li>레이아웃</li>
 </ol>
 
-인라인 요소
+<div>인라인 요소</div>
 <ol>
   <li>span, img</li>
   <li>필요한 만큼의 너비를 사용한다.</li>
@@ -22,4 +22,4 @@ HTML - 블록 레벨(Block level) 요소와 인라인(inline) 요소
   <li>margin,padding 위,아래는 사용할 수 없다.</li>
   <li>TEXT</li>
 </ol>
-</pre>
+
