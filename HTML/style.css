@@ -1,0 +1,33 @@
+a {
+    font-weight: bold;
+    width: 100px;
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+h2 {
+    padding-bottom: 1000px;
+}
+
+code {
+    color: orange;
+    background-color: lightgray;
+    padding: 3px;
+}
+
+kbd {
+    padding: 0 3px;
+    border-radius: 3px;
+    border-top: 2px solid rgb(240,240,240);
+    border-bottom: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(240,240,240);
+    border-left: 2px solid rgb(240,240,240);
+}
