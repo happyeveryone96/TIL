@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <img 
+        srcset="images/heropy_small.png 400w,
+                images/heropy_medium.png 700w,
+                images/heropy_large.png 1000w"
+        sizes="(min-width:1000px) 700px"
+        src="images/heropy.png"
+        alt="HEROPY" />
+        <!-- 뷰포트 너비가 400px 이하일 때 heropy_small.png
+            뷰포트 너비가 401~700px 이하일 때 heropy_medium.png
+            뷰포트 너비가 701~999px 이하일 때 heropy_large.png
+            뷰포트 너비가 1000px 이상일 때 heropy_medium.png -->
+    
+    <!-- <p>페이지</p>
+    <img src="images/heropy.png" alt="img">
+    <iframe src="https://google.com" 
+    frameborder="0"
+    width="70%"
+    height="400px"
+    style="border: 4px solid red"></iframe> -->
+
+    <canvas id="canvas" width="200 height=150"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'rgb(200, 0, 0)';
+        ctx.fillRect(10, 10, 50, 50);
+    </script>
+    <div id="my-name">JJW</div>
+    
+    <!-- <script src="./js/main.js">
+        console.log('안녕하세요');   >>>> 무시됨
+        </script> -->
+</body>
+</html>
