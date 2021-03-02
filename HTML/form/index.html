@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/login" method="GET" autocomplete="on" novalidate target="_blank">
+        <input type="email" name="email">
+        <input type="password" name="password">
+        <button type="submit">로그인</button>
+    </form>
+
+    <input type="text" maxlength="6">
+    <br>
+
+    <form action="/login" method="GET">
+        <fieldset>
+            <legend>NAVER</legend>
+                <input type="email" name="id">
+                <input type="password" name="pw">
+                <input type="submit" value="로그인">
+                <button type="submit">로그인</button>
+                <input type="reset" value="초기화">
+                <button type="reset">초기화</button>
+        </fieldset>
+    </form> 
+
+    <input type="number" step="4">
+    <label><input type="checkbox" checked>체크박스</label>
+    <input type="file" multiple>
+    
+    <form action="/login">
+        <input type="image" src="images/heropy.png" alt="HEROPY">
+    </form>
+    
+    <input type="radio" name="radio">
+    <input type="radio" name="radio" checked>
+    <input type="radio" name="radio">
+
+    <button onclick="doit()">클릭</button>
+    <script>
+        function doit() {
+            alert('클릭했습니다!');
+        }
+    </script>
+
+    <textarea rows="6" placeholder="설명을 입력하세요"></textarea>
+
+    <select name="fruits">
+        <optgroup label="내가 좋아하는 과일">
+            <option label="Apple" value="Apple"></option>
+            <option>Orange</option>
+            <option>Banana</option>
+        </optgroup>
+        <optgroup label="내가 싫어하는 과일">
+            <option selected>Mango</option>
+            <option>Fineapple</option>
+        </optgroup>
+    </select>
+
+    <input type="text" list="fruits">
+
+    <datalist id="fruits">
+        <option>Apple</option>
+        <option>Orange</option>
+        <option>Banana</option>
+        <option>Mango</option>
+        <option>Fineapple</option>
+    </datalist>
+
+    <progress value="0 max="100"></progress>
+    <script>
+        const progress = document.querySelector('progress');
+        const interval = setInterval(function() {
+            progress.value += 10;
+            if (progress.value >= 100) clearInterval(interval);
+        }, 1000)
+    </script>
+</body>
+</html>
