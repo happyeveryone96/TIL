@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section {
+            width: 100px;
+            color: red;
+            background-color: blue;
+        }
+        #first {
+            height: 100px;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div id="first">1</div>
+
+    <script>
+        const section = document.querySelector('.section');
+        const first = document.getElementById('first');
+    </script>
+    <div id="me" data-my-name="JW" data-my-age="333">JW</div>
+    <script>
+        const me = document.getElementById('me');
+        console.log(me.dataset.myName);
+        console.log(me.dataset.myAge);
+    </script>
+
+    <div draggable="true">drag</div>
+
+    <!-- 
+    <input type="text" value="1 (2)" tabindex="2">
+    <input type="text" value="2 (1)" tabindex="1">
+    <input type="text" value="3">
+    <input type="text" value="4">
+    <input type="text" value="5 (3)" tabindex="3"> 
+    -->
+
+    <input type="text" value="1">
+    <input type="text" value="2">
+    <div tabindex="0">2.5</div>
+    <input type="text" value="3">
+    <input type="text" value="4" tabindex="-1">
+    <input type="text" value="5">
+    
+    <!-- Entities -->
+    <div>Hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;World!</div>
+    <h1>
+        &lt;div&gt;&lt;/div&gt;
+    </h1>
+</body>
+</html>
