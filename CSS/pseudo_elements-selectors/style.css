@@ -1,0 +1,22 @@
+ul {
+    font-size: 400px;
+  }
+  
+  ul li::before {
+    content:"숫자";
+    font-weight: bold;
+    color: red;
+    margin-right:20px;
+  }
+  
+  ul li::after {
+    content: url("https://heropy.blog/css/images/logo.png");
+  }
+  
+  div::before {
+    content: "<"
+  }
+  
+  div::after {
+    content: ">"
+  }
