@@ -1,6 +1,6 @@
-<pre>storage.setItem(keyName, keyValue);
-
-ex</pre>
+<div>storage.setItem(keyName, keyValue);</div>
+<br>
+<div>example</div>
 ```
 function populateStorage() {
   localStorage.setItem('bgcolor', 'red');
