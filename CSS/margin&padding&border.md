@@ -1,4 +1,4 @@
-<h1><margin&padding&border/h1>
+<h1><margin,padding,border/h1>
   <pre>margin : 위 우 아래 좌;
   margin: 위 [좌,우] 아래;
   margin: [위,아래] [좌,우];
