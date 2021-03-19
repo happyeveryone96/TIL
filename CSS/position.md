@@ -10,4 +10,4 @@ top: px(또는 cm,em); // 요소의 position 기준에 맞는 '위쪽'에서의 
 bottom: ;           //                        '아래쪽'
 left: ;             //                         '왼쪽'
 right: ;            //                        '오른쪽'
-~~~
+
