@@ -1,5 +1,5 @@
 <h1>position</h1>
-```
+```{CSS}
 position: static; // 유형(기준) 없음 / 배치 불가능
 position: relative; // 요소 자신을 기준으로 배치
 position: absolute; // 위치 상 부모 요소를 기준으로 배치
