@@ -1,0 +1,74 @@
+button {
+    display: block;
+    margin: 10px;
+    background: mediumaquamarine;
+    border: white;
+    border-radius: 3px;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+  }
+  
+  .box:hover {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    transition: 0.5s;
+  }
+  
+  .container2 {
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+  }
+  
+  .box2 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    margin-top: 600px;
+  }
+  
+  .container3 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .box3 {
+    width: 200px;
+    height: 200px;
+    background: orange;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 50px;
+  }
+  
+  .colors li:nth-child(1)::after {
+    content: " panther";
+    color: pink;
+  }
+  
+  .colors li:nth-child(3) {
+    color: green;
+  }
+  
+  .colors li:nth-child(4)::before {
+    content: "this is ";
+  }
+  
