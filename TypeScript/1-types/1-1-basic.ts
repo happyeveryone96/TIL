@@ -58,4 +58,4 @@
     function acceptSomeObject(obj: object) {}
     acceptSomeObject({ name: 'ellie'});
     acceptSomeObject({ animal: 'doh'});
-}
+} 
